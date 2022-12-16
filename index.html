@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="day">sunday monday tuesday wednesday thursday friday saturday</div>
+    <div id="clock"></div>
+<!--     chaque bouton lance une fonction pour afficher l'heure dans un format et 
+    arreter la fonction qui l'affiche dans l'autre format -->
+    
+    <p class="hour" id="12hour" onclick="clock24(0);clock12(12)">12 hours</p>
+    <p class="hour" id="24hour" onclick="clock12(0);clock24(24)">24 hours</p>
+    <script src="script.js"></script>
+</body>
+</html>
